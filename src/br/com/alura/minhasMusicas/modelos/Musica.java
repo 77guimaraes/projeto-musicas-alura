@@ -5,6 +5,9 @@ public class Musica extends audio{
     private String cantor;
     private String genero;
 
+    //getters = VISUALIZAR
+    //setters = ALTERAR
+
     public String getAlbum() {
         return album;
     }
