@@ -15,6 +15,18 @@ public class audio {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
+    //Permite visualizar Total de Reproduções
+    public int getTotalReproducoes() {
+        return totalReproducoes;
+    }
+    //Permite visualizar Total de Curtidas
+    public int getTotalCurtidas() {
+        return totalCurtidas;
+    }
+    //Permite visualizar Classificacao
+    public double getClassificacao() {
+        return classificacao;
+    }
 
     //Metodo para Curtir
     public void Curte(){
