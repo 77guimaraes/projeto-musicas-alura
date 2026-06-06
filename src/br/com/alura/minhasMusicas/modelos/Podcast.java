@@ -1,16 +1,8 @@
 package br.com.alura.minhasMusicas.modelos;
 
-public class Podcast {
+public class Podcast extends audio{
     private String titulo;
     private String apresentador;
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
 
     public String getApresentador() {
         return apresentador;
