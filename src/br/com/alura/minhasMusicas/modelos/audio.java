@@ -6,6 +6,7 @@ public class audio {
     private int totalCurtidas;
     private double classificacao;
 
+
     public String getTitulo() {
         return titulo;
     }
@@ -20,5 +21,6 @@ public class audio {
 
     public void reproduz(){
         this.totalReproducoes++;
+
     }
 }
